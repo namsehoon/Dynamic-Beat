@@ -1,5 +1,18 @@
 package dynamic_beat_1;
 
-public class DynamicBeat {
+import javax.swing.JFrame;
 
+public class DynamicBeat extends JFrame {
+
+	
+		public DynamicBeat() {
+			setTitle("Dynamic Butt");
+			setSize(Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT);
+			setResizable(false);
+			setLocationRelativeTo(null);
+			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			setVisible(true);
+			
+			
+		}
 }
